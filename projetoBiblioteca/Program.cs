@@ -1,1 +1,26 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Program.cs
+
+using SisBib.UI;
+
+namespace SisBib
+
+{
+
+    class Program
+
+    {
+
+        static void Main(string[] args)
+
+        {
+
+            Menu menu = new Menu();
+
+            menu.ExibirMenu();
+
+        }
+
+    }
+
+}
+
